@@ -64,7 +64,7 @@ def main():
     # 多进程,bind(port) 端口号,start(num_process) 进程数,0表示自动获取cpu核心数
     http_server.bind(8000)
     http_server.start(0)
-    ''''
+    '''
     tornado.ioloop.IOLoop.current().start()
 
 if __name__ == "__main__":
